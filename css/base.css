@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    width: 75%;
+    margin: auto;
+}
+
+input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    margin: 0 0.4em;
+}
+
+input[type="radio"]:checked {
+    accent-color: orange;
+    border: 7px solid #ff6616;
+    border-radius: 1em;
+    appearance: none;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin: 0 0.4em;
+    position: relative;
+}
+
+input[type="checkbox"]:checked {
+    color: white;
+    background-color: #ff6616;
+    border-radius: 0.1em;
+    appearance: none;
+}
+input[type="checkbox"]:checked::before {
+    color: white;
+    content: '\2713';
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

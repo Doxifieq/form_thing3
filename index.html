@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <link rel="stylesheet" href="css/base.css">
+        <link rel="stylesheet" href="css/layout.css">
+        <link rel="stylesheet" href="css/module.css">
+        <link rel="stylesheet" href="css/state.css">
+        <link rel="stylesheet" href="css/theme.css">
+
+        <title>Document</title>
+    </head>
+
+    <body>
+        <div class="wrapper grid m-auto">
+            <div class="contact-information-container">
+                <h2>Contact Information</h2>
+
+                <div class="input-wrapper">
+                    <label for="input-name">Name</label>
+                    <input type="text" name="input-name" id="input-name">
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="input-email">E-Mail</label>
+                    <input type="email" name="input-email" id="input-email">
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="input-phone">Phone</label>
+                    <input type="tel" name="input-phone" id="input-phone">
+                </div>
+            </div>
+
+            <div class="project-details-container">
+                <h2>Project Details</h2>
+
+                <div class="project-details-wrapper-radio">
+                    <h3>Do you intend to sell online?</h3>
+
+                    <div>
+                        <input type="radio" id="sell-online-yes" name="sell-online">
+                        <label for="sell-online-yes">Yes</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="sell-online-no" name="sell-online">
+                        <label for="sell-online-no">No</label>
+                    </div>
+                </div>
+
+                <div class="project-details-wrapper-checkbox">
+                    <h3>Services required:</h3>
+
+                    <div>
+                        <input type="checkbox" id="services-req-design" name="services-req-design">
+                        <label for="services-req-design">Website design</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="services-req-revamp-design" name="services-req-revamp-design">
+                        <label for="services-req-revamp-design">Website revamp/design</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="services-req-app-development" name="services-req-app-development">
+                        <label for="services-req-app-development">Application development</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="services-req-online-marketing" name="services-req-online-marketing">
+                        <label for="services-req-online-marketing">Online marketing</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="services-req-other" name="services-req-other">
+                        <label for="services-req-other">Other</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="extra-container">
+                <div class="input-wrapper">
+                    <label for="input-extra">Please tell us more</label>
+                    <textarea name="input-extra" id="input-extra" cols="30" rows="10"></textarea>
+                </div>
+
+                <button>Submit</button>
+            </div>
+        </div>
+    </body>
+</html>
